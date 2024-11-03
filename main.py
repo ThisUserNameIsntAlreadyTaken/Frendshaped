@@ -4,15 +4,9 @@ import importlib
 import os
 import configparser
 
-# ---------------------------- #
-#        Configuration         #
-# ---------------------------- #
-
-# Define the root directory for assets and config file
 root_dir = os.path.dirname(os.path.abspath(__file__))
 CONFIG_FILE = os.path.join(root_dir, "config.ini")
 
-# Initialize ConfigParser
 config = configparser.ConfigParser()
 
 # Define default configurations
